@@ -30,3 +30,9 @@ sizin kararınız fork yaparsanız pin to pin ucuz muadilleri yine ublox ta var 
 bulutlu havalarda navigasyon yavaşlamasın diye antende kuvvetlendirici ve bir saw filtre kullandım 
 murata filtre digikeyde yoktu ürün temini ile uğraşmayayım diye maalesef stokta olan infineon kullandım 
 elemanların değerlerinin seçimini video çekerse anlatırım vakit bulamazsam çizimde yeterli
+çizim üzerinde tanıtmadığım işlemci kaldı kalman filtre hesaplayacağım ana işlemciye iletişim için yük düşmasin kalman filtreyi hesaplasın
+istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro accel barometrik sensörleri tek parçada göndersin diye ekledim
+80 Mhz ye çıkabiliyor stok var diye seçtim texas işlemcisi olsa daha iyi olurdu hobi projesi olduğu için st de olsa çizdim
+çizimdeki üçüncü alman malı ürün oldu maalesef boş bir vakitte üçünü de değiştiririm 
+
+
