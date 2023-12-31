@@ -1,44 +1,48 @@
 githubı çözene kadar hiyerarşi yanlış olabilir.
 
-ultrasonik yaklaşım sensörleri ile başlıyorum **** ultra.png **** 
+ultrasonik yaklaşım sensörleri ile başlıyorum
 
-
+**** ultra.png **** 
 toplam 8 sensör olacak
-
 Texas int firmasının PGA460-q1 çipini sensörü sürmek ve eko yu yeniden okumak için kullanacağım 
 eğer istediğim doğruluğu alamazsam stm32l443 ile yeniden çizeceğim baskı devre basılıp gelene kadarki çizim ultra.kicad_sch dosyasının içinde
 deneyebilmek için pcd sini de hazırlayacağım pcb si ultra.kicad.pcb dosyasının içinde çizim tahminen 3 ocak 24 te yüklenmiş olur
 
 kısaca devre elemanlarını tanıtayım 
-aşağıda analog mux var 24V a kadar multiplex yapıp yeni sensör çipi daha önemlisi kapasite ve ağır trafo kullanımını azaltıyor
+aşağıda analog mux var 24V a kadar multiplex yapıp yeni çip daha önemlisi kapasite ve ağır trafo kullanımını azaltıyor
 MUX4051 i 24V la sürüp adres pinini 3.3 ile süreceğiz
 
 devre üzerinde üç ayrı ground var bunları çizim yaparken kolaylık olsun diye çizdim çizim işim bitince tek noktada birleştireceğim 
-pcb çizerken video çekeceğim videoda sebeplerini anlatırım 
+pcb çizerken video çekebilirsem videoda sebeplerini anlatırım video çekemezsen daha detaylı resimlerle açıklarım
+ultra kısmının maliyeti 6 usd civarı.
+
 
 ****** gyro.png ****
 ikinci kısım navigasyon, manyetik sensör, gyro, accelerometre, sıcaklık sensörü ve barometre
 manyetik sensör kuzeyi bulmak için(1g yi geçmeyeceğimiz için yer çekimini ölçmeden nümerik olarak hesaplayacağım
-sıcaklık sensörü manyetik sensörü kalibre etmek için manyetik alan ölçen sensörler sıcaklıktan daha fazla etkilenirler
+sıcaklık sensörü; manyetik sensörü kalibre etmek için manyetik alan ölçen sensörler sıcaklıktan daha fazla etkilenirler
 60 dolara heading açısının doğruluğu 0.01 derece olan çip vardı, hobi projesi olduğu için daha ucuz bir alternatif seçtim
+doğruluğu 0.05 derece.
 
 BNO085 çipi accelerormeter, gyro, ve sıcaklık sensörü bulunduruyor
 BME280 barometre  maalesef bosch ancak ucuz ve iş görüyor kullandım
+
 navigasyon kısmı çok detaylı izaha muhtaç 
 NEO M8Q 01A seçtim arabalar için imal edilmiş düşük sıcaklıkta halen doğru ölçer, hobi projesi ne kadar bu sınırlara ihtiyaç duyar 
 sizin kararınız fork yaparsanız pin to pin ucuz muadilleri yine ublox ta var birini kullanın
 bulutlu havalarda navigasyon yavaşlamasın diye antende kuvvetlendirici ve bir saw filtre kullandım 
 murata filtre digikeyde yoktu ürün temini ile uğraşmayayım diye maalesef stokta olan infineon kullandım 
-elemanların değerlerinin seçimini video çekerse anlatırım vakit bulamazsam çizimde yeterli
-çizim üzerinde tanıtmadığım işlemci kaldı kalman filtre hesaplayacağım ana işlemciye iletişim için yük düşmasin kalman filtreyi hesaplasın
+kimse kullanmayınca stok bize kalmışelemanların değerlerinin hesabını video çekersem anlatırım vakit 
+bulamazsam yeni bir yazı hazırlayacağımçizim üzerinde tanıtmadığım işlemci kaldı 
+kalman filtre hesaplayacağım ana işlemciye iletişim için yük düşmesin kalman filtreyi hesaplasın
 istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro accel barometrik sensörleri tek parçada göndersin diye ekledim
 80 Mhz ye çıkabiliyor stok var diye seçtim texas işlemcisi olsa daha iyi olurdu hobi projesi olduğu için st de olsa çizdim
-çizimdeki üçüncü alman malı ürün oldu maalesef boş bir vakitte üçünü de değiştiririm 
-
+çizimdeki üçüncü avrupa malı ürün oldu maalesef. boş bir vakitte üçünü de amerikan muadilleri ile değiştiririm. 
+100 pinli ürünü seçme sebebim; elimde çokça numune var, atmayayım bari quadcopter olsun.
 
 *** mcu_port.png ***
 içerisinde seçili portlar var bu sıralamaya göre mcu bağlantılarını yapacağım 
-3 spi bir i2c bir usb dac adc vs açtım kullanılmayanları yazılımla kapatacağım
+3 spi bir i2c bir usb dac adc vs açtım kullanılmayan portları yazılımla kapatacağım
 kicaddeli şema kütüphanesini buna göre güncelledim
 
 imu donanımı bitti 
