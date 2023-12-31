@@ -1,1 +1,18 @@
-test
+githubı çözene kadar hiyerarşi yanlış olabilir.
+
+ultrasonik yaklaşım sensörleri ile başlıyorum 
+
+
+toplam 8 sensör olacak
+
+Texas int firmasının PGA460-q1 çipini sensörü sürmek ve eko yu yeniden okumak için kullanacağım 
+eğer istediğim doğruluğu alamazsam stm32l443 ile yeniden çizeceğim baskı devre basılıp gelene kadarki çizim ultra.kicad_sch dosyasının içinde
+deneyebilmek için pcd sini de hazırlayacağım pcb si ultra.kicad.pcb dosyasının içinde çizim tahminen 3 ocak 24 te yüklenmiş olur
+
+kısaca devre elemanlarını tanıtayım 
+aşağıda analog mux var 24V a kadar multiplex yapıp yeni sensör çipi daha önemlisi kapasite ve ağır trafo kullanımını azaltıyor
+MUX4051 i 24V la sürüp adres pinini 3.3 ile süreceğiz
+
+devre üzerinde üç ayrı ground var bunları çizim yaparken kolaylık olsun diye çizdim çizim işim bitince tek noktada birleştireceğim 
+pcb çizerken video çekeceğim videoda sebeplerini anlatırım 
+
