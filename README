@@ -1,6 +1,6 @@
 githubı çözene kadar hiyerarşi yanlış olabilir.
 
-ultrasonik yaklaşım sensörleri ile başlıyorum 
+ultrasonik yaklaşım sensörleri ile başlıyorum **** ultra.png **** 
 
 
 toplam 8 sensör olacak
@@ -16,3 +16,17 @@ MUX4051 i 24V la sürüp adres pinini 3.3 ile süreceğiz
 devre üzerinde üç ayrı ground var bunları çizim yaparken kolaylık olsun diye çizdim çizim işim bitince tek noktada birleştireceğim 
 pcb çizerken video çekeceğim videoda sebeplerini anlatırım 
 
+
+ikinci kısım navigasyon, manyetik sensör, gyro, accelerometre, sıcaklık sensörü ve barometre
+manyetik sensör kuzeyi bulmak için(1g yi geçmeyeceğimiz için yer çekimini ölçmeden nümerik olarak hesaplayacağım
+sıcaklık sensörü manyetik sensörü kalibre etmek için manyetik alan ölçen sensörler sıcaklıktan daha fazla etkilenirler
+60 dolara heading açısının doğruluğu 0.01 derece olan çip vardı, hobi projesi olduğu için daha ucuz bir alternatif seçtim
+
+BNO085 çipi accelerormeter, gyro, ve sıcaklık sensörü bulunduruyor
+BME280 barometre  maalesef bosch ancak ucuz ve iş görüyor kullandım
+navigasyon kısmı çok detaylı izaha muhtaç 
+NEO M8Q 01A seçtim arabalar için imal edilmiş düşük sıcaklıkta halen doğru ölçer, hobi projesi ne kadar bu sınırlara ihtiyaç duyar 
+sizin kararınız fork yaparsanız pin to pin ucuz muadilleri yine ublox ta var birini kullanın
+bulutlu havalarda navigasyon yavaşlamasın diye antende kuvvetlendirici ve bir saw filtre kullandım 
+murata filtre digikeyde yoktu ürün temini ile uğraşmayayım diye maalesef stokta olan infineon kullandım 
+elemanların değerlerinin seçimini video çekerse anlatırım vakit bulamazsam çizimde yeterli
