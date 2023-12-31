@@ -16,7 +16,7 @@ MUX4051 i 24V la sürüp adres pinini 3.3 ile süreceğiz
 devre üzerinde üç ayrı ground var bunları çizim yaparken kolaylık olsun diye çizdim çizim işim bitince tek noktada birleştireceğim 
 pcb çizerken video çekeceğim videoda sebeplerini anlatırım 
 
-
+****** gyro.png ****
 ikinci kısım navigasyon, manyetik sensör, gyro, accelerometre, sıcaklık sensörü ve barometre
 manyetik sensör kuzeyi bulmak için(1g yi geçmeyeceğimiz için yer çekimini ölçmeden nümerik olarak hesaplayacağım
 sıcaklık sensörü manyetik sensörü kalibre etmek için manyetik alan ölçen sensörler sıcaklıktan daha fazla etkilenirler
