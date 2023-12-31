@@ -36,3 +36,10 @@ istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro ac
 çizimdeki üçüncü alman malı ürün oldu maalesef boş bir vakitte üçünü de değiştiririm 
 
 
+*** mcu_port.png ***
+içerisinde seçili portlar var bu sıralamaya göre mcu bağlantılarını yapacağım 
+3 spi bir i2c bir usb dac adc vs açtım kullanılmayanları yazılımla kapatacağım
+kicaddeli şema kütüphanesini buna göre güncelliyorum
+
+
+sonraki metinleri oku1- oku2 isimli dosyalarda yazacağım 
