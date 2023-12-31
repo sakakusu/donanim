@@ -39,7 +39,13 @@ istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro ac
 *** mcu_port.png ***
 içerisinde seçili portlar var bu sıralamaya göre mcu bağlantılarını yapacağım 
 3 spi bir i2c bir usb dac adc vs açtım kullanılmayanları yazılımla kapatacağım
-kicaddeli şema kütüphanesini buna göre güncelliyorum
+kicaddeli şema kütüphanesini buna göre güncelledim
+
+imu donanımı bitti 
+1- motor sürücü 
+2- single board computer nxp imx8 ile
+3- güç yöneetimi, şarj ve deşarj yönetimi 
+devresi hazırladıktan sonra baskı devreleri tek kart olarak yeniden çizeceğim aşama aşama programlarını yüklerim
 
 
 sonraki metinleri oku1- oku2 isimli dosyalarda yazacağım 
