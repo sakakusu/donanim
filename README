@@ -36,7 +36,7 @@ kimse kullanmayınca stok bize kalmış elemanların değerlerinin hesabını vi
 bulamazsam yeni bir yazı hazırlayacağım çizim üzerinde tanıtmadığım işlemci kaldı 
 kalman filtre hesaplayacağım ana işlemciye iletişim için yük düşmesin kalman filtreyi hesaplasın
 istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro accel barometrik sensörleri tek parçada göndersin diye ekledim
-80 Mhz ye çıkabiliyor stok var diye seçtim texas işlemcisi olsa daha iyi olurdu hobi projesi olduğu için st de olsa çizdim
+80 Mhz ye çıkabiliyor elimde var diye seçtim texas işlemcisi olsa daha iyi olurdu hobi projesi olduğu için st de olsa çizdim
 çizimdeki üçüncü avrupa malı ürün oldu maalesef. boş bir vakitte üçünü de amerikan muadilleri ile değiştiririm. 
 100 pinli ürünü seçme sebebim; elimde çokça numune var, atmayayım bari quadcopter olsun.
 
@@ -55,7 +55,9 @@ devresi hazırladıktan sonra baskı devreleri tek kart olarak yeniden çizeceğ
 3 unde yüklerim yazmıştım masaüstü bilgisayarı açamadım yüklemem gecikti 
 
 mcu ile çalıştırdıktan sonra fpga ile yeniden hazırlamayı düşünüyordum 50 dolar giriş seviyesi artix7 bu sebeple burası sadece mcu olarak kalacak 
-kalman filtresi de mcu da çalışacak yeniden çizmeyeceğim belki enerji uçuş birleştirip tek çip yaparım board kica_brd dosyasının içinde
+kalman filtresi de mcu da çalışacak yeniden çizmeyeceğim belki enerji uçuş birleştirip tek çip yaparım board imu.kica_brd dosyasının içinde
 bir tane dizip fotoğraf yüklerim kalman yazması uzun sürmez ama denemesi vakit alır mart başı umarım
 
+iki tasarım eş zamanlı yapacağım bir tanesi hızlı bir tanesi sessiz
+motor sürücüyü de ben tasarlayacağım o zaman detaylarıyla anlatırım
 sonraki metinleri oku1- oku2 isimli dosyalarda yazacağım 
