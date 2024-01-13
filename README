@@ -32,8 +32,8 @@ NEO M8Q 01A seçtim arabalar için imal edilmiş düşük sıcaklıkta halen do�
 sizin kararınız fork yaparsanız pin to pin ucuz muadilleri yine ublox ta var birini kullanın
 bulutlu havalarda navigasyon yavaşlamasın diye antende kuvvetlendirici ve bir saw filtre kullandım 
 murata filtre digikeyde yoktu ürün temini ile uğraşmayayım diye maalesef stokta olan infineon kullandım 
-kimse kullanmayınca stok bize kalmışelemanların değerlerinin hesabını video çekersem anlatırım vakit 
-bulamazsam yeni bir yazı hazırlayacağımçizim üzerinde tanıtmadığım işlemci kaldı 
+kimse kullanmayınca stok bize kalmış elemanların değerlerinin hesabını video çekersem anlatırım vakit 
+bulamazsam yeni bir yazı hazırlayacağım çizim üzerinde tanıtmadığım işlemci kaldı 
 kalman filtre hesaplayacağım ana işlemciye iletişim için yük düşmesin kalman filtreyi hesaplasın
 istendiğinde matris halinde ultrasoniklerden uzaklıkları, navigasyonu gyro accel barometrik sensörleri tek parçada göndersin diye ekledim
 80 Mhz ye çıkabiliyor stok var diye seçtim texas işlemcisi olsa daha iyi olurdu hobi projesi olduğu için st de olsa çizdim
@@ -51,5 +51,11 @@ imu donanımı bitti
 3- güç yönetimi, şarj ve deşarj yönetimi 
 devresi hazırladıktan sonra baskı devreleri tek kart olarak yeniden çizeceğim aşama aşama programlarını yüklerim
 4-iletişim kısmını hazır alacağım proje bitmeden(6 aydan kısa sürer) birkaç kişi talep ederse kriptolu ferkans atlamalı bir şey de tasarlayabilirim 
+
+3 unde yüklerim yazmıştım masaüstü bilgisayarı açamadım yüklemem gecikti 
+
+mcu ile çalıştırdıktan sonra fpga ile yeniden hazırlamayı düşünüyordum 50 dolar giriş seviyesi artix7 bu sebeple burası sadece mcu olarak kalacak 
+kalman filtresi de mcu da çalışacak yeniden çizmeyeceğim belki enerji uçuş birleştirip tek çip yaparım board kica_brd dosyasının içinde
+bir tane dizip fotoğraf yüklerim kalman yazması uzun sürmez ama denemesi vakit alır mart başı umarım
 
 sonraki metinleri oku1- oku2 isimli dosyalarda yazacağım 
